@@ -4,16 +4,16 @@ A modern, scalable real-time chat application built with ASP.NET Core and Signal
 
 ## Features
 
-- 🚀 **Real-time messaging** with SignalR WebSocket connections
-- 👥 **Private and group chats** with flexible room management
-- 🟢 **Online presence tracking** with live status updates
-- ⌨️ **Typing indicators** for enhanced user experience
-- 📜 **Message history** with pagination support
-- 🔐 **JWT authentication** for secure access
-- 🔒 **Password security** with PBKDF2 hashing
-- 📊 **Entity Framework Core** with optimized relationships
-- ⚡ **Scalable architecture** ready for Redis backplane
-- 📱 **RESTful API** with Swagger documentation
+- **Real-time messaging** with SignalR WebSocket connections
+- **Private and group chats** with flexible room management
+- **Online presence tracking** with live status updates
+- **Typing indicators** for enhanced user experience
+- **Message history** with pagination support
+- **JWT authentication** for secure access
+- **Password security** with PBKDF2 hashing
+- **Entity Framework Core** with optimized relationships
+- **Scalable architecture** ready for Redis backplane
+- **RESTful API** with Swagger documentation
 
 ## Tech Stack
 
@@ -226,6 +226,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
+Your Name - Hisham Albanna - albannahisham@gmail.com
 
-Project Link: [https://github.com/yourusername/kallemny](https://github.com/yourusername/kallemny)
+Project Link: [https://github.com/etchelbanna/kallemny](https://github.com/etchelbanna/kallemny)
