@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace Kallemny.Models
+{
+    public class User
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string Username { get; set; } = string.Empty;
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        public string PasswordHash { get; set; } = string.Empty;
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public DateTime? LastSeen { get; set; }
+
+        public bool IsOnline { get; set; } = false;
+
+        public ICollection<Message> SentMessages { get; set; } = new List<Message>();
+
+        public ICollection<ChatRoomUser> ChatRoomUsers { get; set; } = new List<ChatRoomUser>();
+    }
+}
