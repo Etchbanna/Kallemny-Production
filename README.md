@@ -226,6 +226,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-Your Name - Hisham Albanna - albannahisham@gmail.com
+- Hisham Albanna - albannahisham@gmail.com
 
 Project Link: [https://github.com/etchelbanna/kallemny](https://github.com/etchelbanna/kallemny)
